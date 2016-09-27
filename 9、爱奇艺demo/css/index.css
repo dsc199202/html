@@ -1,0 +1,66 @@
+body,h3{
+	margin:0px;
+}
+img{
+	border:none;
+	vertical-align: top;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+.item{
+	width:678px;
+	height:447px;
+	border:1px solid #d9d9d9;
+	margin: 50px auto;
+}
+.head a{
+	font:14px "microsoft YaHei";
+	color:#1a1a1a;
+}
+.head{
+	margin:16px 0px 0px 19px;
+}
+.head_title{
+	display:inline-block;
+	width:85px;
+	height:26px;
+	background: url(../img/logo.jpg) no-repeat;
+	text-indent:-99999px;
+	float:left;
+}
+nav{
+	width:541px;
+	display: inline-block;
+	margin-left:14px;
+	line-height:38px;
+	vertical-align:top;
+	word-spacing:9px;
+}
+.one span{
+	display:block;
+	font:12px "微软雅黑";
+	margin-top:7px;
+}
+.content{
+	margin-top:-10px;
+}
+.one{
+	margin-left:19px;
+	word-spacing: 12px;
+}
+.one li{
+	display:inline-block;
+	vertical-align: top;
+	margin-top:18px;
+}
+.head .fudong{
+	float:right;
+	color:#1a1a1a;
+	margin-top:10px;
+}

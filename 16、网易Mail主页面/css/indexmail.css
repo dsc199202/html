@@ -1,0 +1,227 @@
+/*清除默认样式*/
+body,h3,dl,dd{
+	margin:0;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+	vertical-align:top;
+}
+body{
+	font-size:12px;
+	background:#f9f9f9;
+}
+input{
+	margin:0;
+	padding:0;
+}
+.box{
+	width:960px;
+	height:600px;
+	margin:0 auto;
+	/*background:#f9f9f9;*/
+	padding:30px 11px 0 11px;
+}
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.head{
+	height:27px;
+	margin-bottom:24px;
+	/*padding:30px 11px 24px 11px;*/
+}
+.head .head-title{
+	width:645px;
+	height:27px;
+	background:url(../img/logo.jpg) no-repeat;
+	float:left;
+}
+.head .head-title a{
+	float:left;
+	width:116px;
+	height:27px;
+	margin-right:14px;
+	text-indent:-9999px;
+}
+.head .head-right{
+	float:right;
+	line-height:28px;
+	padding-right:5px;
+}
+
+.head-right a{
+	float:left;
+	color:#003399;
+}
+.head-right .shu{
+	float:left;
+	color:#a899a8;
+	margin:0 6px 0 6px;
+}
+.content .c-title{
+	height:36px;
+	background:url(../img/1.jpg) repeat-x;
+	border:1px solid #5b88b8;
+	color:#fff;
+	text-indent:20px;
+	font:14px/36px "宋体";
+}
+.c-bottom{
+	border:1px solid #e0e0e0;
+	background:url(../img/bg.jpg) repeat-y;
+	border-top:none;
+}
+.c-left{
+	float:left;
+	width:642px;
+	padding-top:50px;
+}
+.c-left .item-title{
+	width:135px;
+	margin-right:10px;
+	text-align:right;
+	float:left;
+	font:14px/28px "宋体";
+	height:27px;
+}
+.c-left .item-bottom{
+	float:left;
+	margin-bottom:22px;
+}
+.item-bottom a{
+	width:166px;
+	height:32px;
+	float:left;
+	font:14px/34px "宋体";
+	margin-right:-1px;
+	border:1px solid #b5b5b5;
+	text-align: center;
+	color:#555;
+}
+.item-bottom .bo{
+	border:1px solid #0e529a;
+	background:url(../img/zhuce.jpg) repeat-x;
+	color:#fff;
+	font-weight:bold;
+}
+.item-title .xing{
+	color:red;
+}
+.item-mail input{
+	width:210px;
+	height:25px;
+	border:1px solid #ababab;
+}
+.item-mail select{
+	width:100px;
+	height:27px;
+}
+.item dd{
+	float:left;
+}
+.mail-bottom{
+	font:12px/34px "宋体";
+	color:#999999;
+}
+
+.item{
+	margin-bottom:12px;
+}
+.item-mail2 input{
+	width:332px;
+	height:25px;
+	border:1px solid #ababab;
+}
+.item-mail3 input{
+	width:206px;
+	height:25px;
+	border:1px solid #ababab;
+}
+.item-ma .yanzheng{
+	width:120px;
+	height:50px;
+	border:1px solid #e7e7e7;
+	/*float:left;*/
+	background:url(../img/ma.jpg) no-repeat;
+}
+.item-ma a{
+	display: block;
+	line-height:30px;
+	text-align: center;
+	color:#003399;
+}
+/*.item-mail3{
+	width:497px;
+	position: relative;
+}*/
+.item{
+	position: relative;
+}
+.item-ma{
+	position: absolute;
+	left:357px;
+	top:-12px;
+}
+.border{
+	margin-top:22px;
+}
+
+.item-mail3 .mail-bottom{
+	margin-top:11px;
+}
+.item .check{
+	color:#999999;
+}
+.check a{
+	color:#003399;
+}
+.check input{
+	vertical-align:top ;
+	margin-top:1px;
+}
+.item .item-check{
+	height:18px;
+	line-height:20px;
+}
+.zhuce{
+	width:117px;
+	height:35px;
+	border:1px solid #2f7d1b;
+	text-align: center;
+	background:url(../img/zhuce2.jpg) repeat-x;
+}
+.zhuce a{
+	width:117px;
+	height:35px;
+	color:#fff;
+	font:bold 14px/36px "宋体";
+}
+.c-left .border{
+	border-bottom:45px;
+}
+.c-right{
+	float:left;
+}
+.c-right a{
+	display: block;
+	margin:105px 0 0 51px;
+}
+.foot, .foot a{
+	color:#999999;
+	font:12px/42px "宋体";
+}
+.foot{
+	text-align: center;
+	margin-bottom:9px;
+}
+.c-left{
+	padding-bottom:33px
+}
+.item-mail span{
+	font-size: 12px;
+	font-family: arial;
+}

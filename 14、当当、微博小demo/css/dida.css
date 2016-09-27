@@ -1,0 +1,67 @@
+body,h4{
+	margin:0;
+}
+a{
+	text-decoration:none;
+}
+.box{
+	width:968px;
+	height:113px;
+	border:1px solid #fff;
+	background-color:#f3f3f3;
+	margin:50px auto;
+	padding:0px 10px 0 10px;	
+}
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.title1{
+	margin-top:4px;
+	padding-bottom:2px;
+	border-bottom:1px solid #e2e2e2;
+}
+.title2{
+	border-bottom:1px solid #e2e2e2;
+	padding-bottom:2px;
+}
+.content a{
+	font:12px/30px "宋体";
+	color:#444;
+	float:left;
+	margin-right:20px;
+}
+.content a:hover{
+	color:#fff;
+	background-color:#0066cc;
+}
+.content h4{
+	float:left;
+	font:bold 12px/30px "宋体";
+	margin-right:35px;
+}
+.content a span{
+	color:#878787;
+}
+.di a{
+	width:42px;
+	color:#ff9900;
+	float:right;
+	background:url(../img/xia.jpg) no-repeat 28px 10px;
+	margin-right:0px;
+}
+.title3 span{
+	height:22px;
+	width:102px;
+	margin-right:10px;
+	background:url(../img/pink.jpg) no-repeat;
+	float:left;
+	margin-top:6px;
+}
+.title3 span a{
+	font:12px/22px "宋体";
+	color:#fff;
+	margin-left:11px;
+	margin-right:0px;
+}

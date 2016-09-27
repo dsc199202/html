@@ -1,0 +1,111 @@
+body{
+	margin:0px;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+	vertical-align:top;
+}
+ul{
+	margin:0;
+	padding:0px;
+	list-style:none;
+}
+.box{
+	margin:50px auto;
+	width:228px;
+	height:461px;
+	border:1px solid #d0d1cc;
+	font-size:12px;
+}
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.head{
+	margin-top:1px;
+	background-color:#f3f3f3;
+}
+.head span{
+	float:left;
+	line-height:37px;
+	margin-left:14px;
+	font-weight:bold;
+}
+.head a{
+	height:36px;
+	float:right;
+	color:#999999;
+	line-height:38px;
+	margin-right:14px;
+}
+.box ul{
+	margin-top:1px;
+	border-top:1px solid #d0d1cc;
+}
+.content{
+	padding:0px 14px 0 14px;
+}
+/*.content li{
+	margin-top:18px;
+	height:90px;
+	border-bottom:1px dashed #cecece;
+	margin-top:14px;	
+}*/
+.content .border{
+	margin-top:12px;
+	border-bottom:1px dashed #cecece;	
+	padding-bottom:12px;
+}
+.content .border2{
+	margin-top:14px;
+	border-bottom:1px dashed #cecece;	
+	padding-bottom:9px;
+}
+.content .border3{
+	margin-top:14px;
+	border-bottom:1px dashed #cecece;	
+	padding-bottom:9px;
+}
+.content .border4{
+	margin-top:14px;	
+}
+.content .left{
+	margin-top:1px;
+}
+.content .left a{
+	text-align: center;
+	display:block;
+	width:40px;
+	line-height:24px;
+	color:#799a17;
+	margin-top:-1px;
+}
+.content .left .tu{
+	height:24px;
+	background:url(../img1/guanzhu.jpg) no-repeat;
+	margin-top:7px;
+}
+.content .left,.content .right{
+	float:left;
+}
+.content .right{
+	width:152px;
+	margin-left:8px;
+}
+.right .name{
+	color:#333333;
+	line-height:18px;
+	margin-bottom:6px;
+}
+.right .zhongjian{
+	color:#5f80a9;
+	line-height:18px;
+}
+.right{
+	color:#999;
+	line-height:18px;
+}

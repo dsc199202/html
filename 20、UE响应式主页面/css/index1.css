@@ -1,0 +1,53 @@
+@media all and (max-width:1250px){
+	.head-box,.guanyu,.cb-item,.down_last,.conten_down ,.jieshu{
+		width: 880px;
+	}
+	.head-nav,.photo_big{
+		display: none;
+	}
+	[like="box"]{
+		display: none;
+	}
+	[ct="box"]{
+		width: 857px;
+	}
+	.cb-item{
+	    height: 2557px;
+	}
+	.down_last{
+		height: 289px;
+	}
+	.conten_down {
+		height: 330px;
+		padding-top: 0;
+	}
+	.tupian li:nth-child(6){
+	margin-right: 0;
+	}
+	.mingcheng{
+		width: 122px;
+	}
+	.fangkuai{
+		display: block;
+	}
+}
+@media all and (max-width:950px){
+	.head-box,.guanyu,.cb-item,.down_last,.conten_down ,.jieshu{
+		width: 580px;
+	}
+	[ct="box"]{
+		width: 557px;
+	}
+	.cb-item{
+	    height: 3637px;
+	}
+	.tupian li:nth-child(4){
+	margin-right: 0;}
+	
+	.tupian li:nth-child(6){
+	margin-right: 20px;
+	}
+	.mingcheng{
+		width: 118px;
+	}
+}

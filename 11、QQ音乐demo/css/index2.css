@@ -1,0 +1,106 @@
+body,h3{
+	margin:0;
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+	vertical-align:top;
+}
+.box{
+	width:700px;
+	height:430px;
+	margin:50px auto;
+	padding:19px 30px 0 13px;
+}
+.head{
+	height:30px;
+	border-left:5px solid #ff7800;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.head .head_title{
+	height:26px;
+	width:92px;
+	background:url(../img2/logo.jpg) no-repeat;
+	text-indent:-999px;
+	float:left;
+	margin-left:10px;
+	margin-top:2px;
+	line-height:30px;
+}
+.head a{
+	font-size:14px;
+	color:#0f820c;
+	float:left;
+	margin-top:10px;	
+}
+.head span{
+	font-size:14px;
+	color:#0f820c;
+	float:left;
+	margin:10px 5px 0px 12px;
+}
+.content{
+	margin-top:18px;
+	font-size:12px;
+	margin-right:-20px;
+}
+.content li{
+	width:160px;
+	height:184px;
+	float:left;
+	margin-right:20px;
+}
+
+.content .li_tu{
+	width:160px;
+	height:90px;
+	display: block;
+}
+.content .c_title{
+	/*font-size:12px;*/
+	line-height:23px;
+	margin-top:5px;
+}
+.content .c_name{
+	line-height:22px;
+}
+.content a{
+	/*font-size:12px;*/
+}
+.content .c_title .title1{
+	color:#0f820c;
+}
+.content .c_title .title2{
+	color:#515151;
+}
+.c_hot{
+	margin-top:7px;
+	color:#a3a3a3;
+}
+.c_hot .hot1{
+	display:block;
+	width:8px;
+	height:11px;
+	background:url(../img2/hot.jpg) no-repeat;
+	float:left;
+	margin-top:2px;
+}
+.c_hot span{
+	float:left;
+	margin-left:7px;
+	
+}
+.c_hot time{
+	float:right;
+}

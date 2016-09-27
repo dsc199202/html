@@ -1,0 +1,141 @@
+body,h3{
+	margin:0px;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+	vertical-align:top;
+}
+ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.box{
+	width:332px;
+	height:508px;
+	padding:25px 16px 0 19px;
+	margin:50px auto;
+}
+.head{
+	border-left:5px solid #8bcc00;
+}
+.head .h_title{
+	width:111px;
+	height:26px;
+	background:url(../img/logo.jpg) no-repeat;
+	text-indent:-9999px;
+	float:left;
+	margin:2px 9px 0px 10px;
+}
+.head .h_tu{
+	float:left;
+} 
+.head .h_tu a{
+	/*width:30px;
+	height:30px;*/
+	/*display:block;
+	float:left;*/
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.head .h_text{
+	float:left;
+	margin-left:23px;
+}
+.head .h_text span{
+	margin:0px -3px 0px  -3px;
+}
+.head .h_text a{
+	height:30px;
+	font:12px/30px "微软雅黑";
+	color:#0f820c;
+}
+.h_text a:active{
+	font-weight:bold;
+	color:#333;
+}
+.head .h_text span{
+	font-size:12px;
+	
+	color:#d8d8d8;
+}
+.content{
+		margin-top:11px;
+}
+.content li{
+	line-height:36px;
+}
+li:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+li:hover{
+	border-bottom: 1px dotted #e1e1e1;
+	height:35px;
+}
+.content li a{
+	display:block;
+	float:left;
+	font-size:14px;
+	color:#515151;
+}
+.content li span{
+	display:block;
+	float:left;
+	margin:0px 6px 0px 7px;
+}
+.content li time{
+	display:block;
+	float:right;
+	font-size:12px;
+}
+.content li .color{
+	color:#0f820c;
+}
+.content .li_box .box1{
+	width:9px;
+	height:12px;
+	background:url(../img/2-1.jpg) no-repeat;
+	margin-right:10px;
+}
+.content .li_box .box2{
+	width:11px;
+	height:12px;
+	background:url(../img/2-2.jpg) no-repeat;
+	margin-right:8px;
+}
+.content .li_box .box3{
+	width:13px;
+	height:12px;
+	background:url(../img/2-3.jpg) no-repeat;
+	margin-right:7px;
+}
+.content .li_box .box4{
+	width:13px;
+	height:12px;
+	background:url(../img/2-4.jpg) no-repeat;
+	margin-right:7px;
+}
+.content .li_box .box5{
+	width:12px;
+	height:12px;
+	background:url(../img/2-5.jpg) no-repeat;
+}
+.content .li_box{
+	float:right;
+	margin-top:12px;
+	display:none;
+}
+li:hover .li_box{
+	display:block;
+}
+li:hover time{
+	display:none;
+}

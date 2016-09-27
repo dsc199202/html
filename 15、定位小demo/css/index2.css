@@ -1,0 +1,63 @@
+body{
+	margin:0;
+	background:#bfbfbf;
+}
+a{
+	text-decoration:none;
+	display: block;
+}
+.box{
+	margin:50px auto;
+	width:430px;
+	height:279px;
+	border:1px solid #fff;
+	position:relative;
+}
+.box .content{
+	width:135px;
+	height:135px;
+	position:absolute;
+}
+.lefttop{
+	left:0;
+	top:0;
+}
+.righttop{
+	right:0;
+	top:0;
+}
+.leftbottom{
+	left:0;
+	bottom:0;
+}
+.rightbottom{
+	right:0;
+	bottom:0;
+}
+.box .conter{
+	height:100%;
+	width:140px;
+	left:145px;
+	top:0;
+}
+.content .bottom{
+	width:100%;
+	height:28px;
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+.content .bg{
+	height:28px;
+	background:red;
+	opacity:0.7;
+}
+.content .text{
+	width:100%;
+	color:#fff;
+	position:absolute;
+	text-align:center;
+	font:12px/28px "宋体";
+	left:0;
+	bottom:0;
+}

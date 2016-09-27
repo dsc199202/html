@@ -1,0 +1,340 @@
+/*头部*/
+.head-title .title-top{
+	background-color:#f2f2f2;
+	border-bottom:1px solid #e5e5e5;
+}
+.head-title .top-text{
+	width:1190px;
+	height:15px;
+	margin:0 auto;
+	font:12px/14px "微软雅黑";
+	padding:7px 0 4px;
+}
+/*头部第一行 左边浮动*/
+.top-text .text-left{
+	/*width:452px;*/
+	float:left;
+}
+.top-text a{
+	color:#6c6c6c;
+}
+.text-left a{
+	float:left;
+	padding:0 4px;
+}
+.text-left span{
+	float:left;
+	color:#aaaaaa;
+	padding-left:15px;
+}
+.text-left .icon{
+	padding-left:23px;
+	position: relative;
+}
+.text-left .ico{
+	position: absolute;
+	float:left;
+	width:13px;
+	height:11px;
+	background:url(../img/bg_title.png) no-repeat 0 0;
+	left:6px;
+	overflow: hidden;
+}
+/*头部第一行右边浮动*/
+.top-text .text-right{
+	float:right;
+}
+.text-right span{
+	float:left;
+	padding:0 4px;
+}
+.text-right a{
+	float:left;
+	padding:0 4px;
+}
+.text-right .icon{
+	padding-right:18px;
+	position: relative;
+}
+.text-right .you-icon{
+	padding:0 18px;
+}
+.text-right .ico{
+	position: absolute;
+	float:right;
+	width:6px;
+	height:3px;
+	background:url(../img/bg_title.png) no-repeat -45px 0;
+	right:4px;
+	top:4px;
+	overflow: hidden;
+}
+.text-right .you-ico{
+	position: absolute;
+	float:left;
+	width:12px;
+	height:10px;
+	background:url(../img/bg_title.png) no-repeat -13px 0;
+	left:4px;
+	top:1px;
+	overflow: hidden;
+}
+.text-right .shu{
+	color:#aaaaaa;
+	padding:0 8px;
+	margin-top:-1px;
+}
+/*头部第二行背景图*/
+
+.head-title .title-bg{
+	width:100%;
+	height:48px;
+	background:url(../img/title.jpg) no-repeat center;
+}
+.title-bg a{
+	width:1190px;
+	height:48px;
+	display: block;
+	margin:0 auto;
+}
+/*头部第三行左边内容*/
+.title-bottom{
+	border-bottom:3px solid #3ea3ff;
+}
+.title-bottom .content-left{
+	float:left;
+}
+.content-left .left-title{
+	width:1013px;
+	height:27px;
+	padding:27px 0 16px 0;
+}
+.left-title .logo{
+	background:url(../img/logo.jpg) no-repeat;
+	text-indent:-9999px;
+}
+.logo a{
+	width:206px;
+	height:27px;
+	display: block;
+}
+.left-title .dianhua{
+	width:210px;
+	height:31px;
+	border:1px solid #dce0e5;
+	top:14px;
+	right:17px;
+	color:#333333;
+	font-size:12px;
+}
+.dianhua .phone{
+	width:20px;
+	height:19px;
+	background:url(../img/bg_title.png) no-repeat 0 -11px;
+	left:10px;
+	top:6px;
+	overflow: hidden;
+}
+.dianhua .xia{
+	width:10px;
+	height:6px;
+	background:url(../img/bg_title.png) no-repeat -25px 0;
+	right:15px;
+	top:12px;
+	overflow: hidden;
+}
+.dianhua span{
+	font:12px/31px "微软雅黑";
+	margin-left:41px;
+}
+.content-left .left-text a{
+	float:left;
+	font:16px/34px "微软雅黑";
+	color:#23516e;
+	padding:0 12px;
+}
+.content-left .left-text .color{
+	color:#3ea3ff;
+}
+/*头部第三行右边内容*/
+.title-bottom .content-right{
+	float:left;
+}
+.content-right .right-img{
+	padding:9px 0 7px 0;
+}
+.content-right .right-img a{
+	float:left;
+	margin-right:1px;
+}
+
+
+
+
+
+/*固定定位*/
+.wrap .wrap-celan{
+	width:35px;
+	height:100%;
+	position:fixed;
+	background:url(../img/guding.jpg) no-repeat;
+	top:0;
+	right:0;
+}
+
+
+
+
+/*底部*/
+.foot{
+	margin:0 auto;
+	width:1190px;
+	height:365px;
+}
+
+.flight-bottom{
+	width:1183px;
+	height:37px;
+	border:1px solid #eeeeee;
+	padding:10px 0 9px 4px;
+	margin-bottom:10px;
+}
+
+.flight-bottom li{
+	float:left;
+	font:12px/12px "微软雅黑";
+	padding:0px 5px;
+	margin:3px 0;
+	border-right:1px solid #a594c4;
+	vertical-align:top;
+	overflow: hidden;
+	height:12px;
+}
+
+.foot-text1{
+	border-top:3px solid #3ea3ff;
+	width:100%;
+	height:80px;
+	padding:40px 0 46px;
+}
+.foot-text1 .ft-a{
+	width:225px;
+	padding-left:25px;
+	border-right:1px solid #e8e8e8;
+	padding-bottom:4px;
+}
+.ft-a dt{
+	width:100%;
+	float:left;
+	height:24px;
+	font:16px/24px "微软雅黑";
+	color:#2b577a;
+	margin-bottom:16px;
+	overflow: hidden;
+}
+.ft-a dd{
+	float:left;
+	height:18px;
+	font:12px/18px "微软雅黑";
+	color:#8a9ca8;
+	overflow: hidden;
+	padding-right:15px;
+	white-space: nowrap;
+}
+.foot-text1 .border{
+	padding-right:21px;
+}
+
+.foot-text1 .ft-img{
+	width:390px;
+	padding-left:25px;
+	height:71px;
+	padding-top:9px;
+}
+.ft-img a{
+	float:left;
+	width:388px;
+	height:71px;
+	background:url(../img/flight-img.png) no-repeat 0 -343px;
+	overflow: hidden;
+}
+
+.foot-text2{
+	width:100%;
+	height:127px;	
+	border-top:1px solid #e8e8e8;
+}
+.text-a{
+	padding:8px 0 6px;
+	border-bottom:1px dashed #999;
+	height:12px;
+	vertical-align: top;
+	overflow:hidden ;	
+}
+.text-a a{
+	font:12px/12px "微软雅黑";
+	height:12px;
+	float:left;
+	padding:0 3px;
+	color:#6c6c6c;
+	vertical-align: top;
+}
+.text-a span{
+	font:12px/12px "微软雅黑";
+	height:12px;
+	float:left;
+	padding:0 2px;
+	color:#e2d5e2;
+	vertical-align: top;
+}
+
+.text-b{
+	padding:8px 0;
+	height:12px;
+}
+.text-b a{
+	font:12px/12px "微软雅黑";
+	height:12px;
+	float:left;
+	margin-right:4px;
+	color:#6c6c6c;
+	vertical-align: top;
+}
+.text-b span{
+	font:12px/12px "微软雅黑";
+	height:12px;
+	float:left;
+	color:#6c6c6c;
+	vertical-align: top;
+}
+
+.text-c{
+	height:24px;
+}
+
+.text-c a{
+	font:12px/24px "微软雅黑";
+	height:24px;
+	float:left;
+	padding-right:6px;
+	color:#999;
+	vertical-align: top;
+}
+.text-c span{
+	font:12px/24px "微软雅黑";
+	height:24px;
+	float:left;
+	padding-right:5px;
+	color:#e2d5e2;
+	vertical-align: top;
+}
+
+.foot .over a{
+	float:left;
+	width:76px;
+	height:30px;
+	background:url(../img/flight-img.png) no-repeat -86px -57px;
+	overflow: hidden;
+}
+
+

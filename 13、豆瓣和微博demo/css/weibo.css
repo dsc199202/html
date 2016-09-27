@@ -1,0 +1,93 @@
+body,h4{
+	margin:0px;
+}
+img{
+	border:none;
+	vertical-align:top;
+}
+a{
+	text-decoration:none;
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.box{
+	width:680px;
+	margin:50px auto;
+}
+.head h4{
+	font:12px/28px "宋体";
+	color:#333333;
+	float:left;
+	/*line-height:28px;*/
+}
+.head a{
+	float:right;
+	line-height:28px;
+}
+.head .border{
+	margin-right:10px;
+}
+/*.head{
+	border-bottom:7px;
+}*/
+.content{
+	margin-right:-11px;
+	margin-top:7px;
+}
+.content li{
+	width:333px;
+	height:140px;
+	border:1px solid #e6e6e6;
+	background:#f3f3f3;
+	float:left;
+	margin:0 10px 10px 0;
+}
+.content .title{
+	float:left;
+}
+.content .tu{
+	width:80px;
+	height:80px;
+	float:left;
+}
+.title a{
+	color:#0a8cd2;
+	/*width:233px;
+	display:block;
+	font:bold 12px/20px "宋体";*/
+}
+.title .hot{
+	width:233px;
+	display:block;
+	font:bold 12px/20px "宋体"
+}
+.title span{
+	display:block;
+	font:12px/20px "宋体"
+}
+.title .name{
+	color:#808080;
+}
+.content li .guanzhu{
+	/*width:54px;*/
+	height:22px;
+	display:block;
+	padding:12px 0 0 23px;
+}
+.li_box .tu{
+	padding:10px 0 0 10px;
+}
+.li_box .title{
+	padding:7px 0 0 10px;
+}
+.title .fu{
+	background:url(../img1/logo.jpg) no-repeat 57px 2px;;
+}
