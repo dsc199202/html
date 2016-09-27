@@ -1,0 +1,16 @@
+div{
+	line-height:30px;
+	font-size:12px;
+	font-family:"宋体";
+	word-spacing:3px;
+	/*width:156px;
+	border:1px solid orange;*/
+}
+strong{
+	word-spacing:9px;
+	letter-spacing:-1px;
+	
+}
+span{
+	color:red;
+}
