@@ -1,0 +1,100 @@
+body,h4{
+	margin:0px;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	word-spacing:3px;
+	margin-top:13px;
+}
+.one{
+	vertical-align: -1px;
+	border: none;
+	margin-left:-2px;
+}
+a{
+	text-decoration: none;
+	/*background:#f5f5f5;*/
+	
+}
+.box{
+	width:1189px;
+	height:365px;
+	font-size:0px;
+}
+.kuai{
+	width:169px;
+	height:362px;
+	border:1px solid #e8e8e8;
+	display:inline-block;
+	vertical-align: top;
+	margin-right: -1px;
+	font-size:12px;
+	padding:1px 14px 0px;
+}
+h4{
+	display:inline-block;
+	font:bold 16px/40px "微软雅黑";
+}
+.title{
+	/*margin:13px 14px 12px;*/
+}
+.shang{
+	/*width:169px;
+	height:150px;*/
+	background:#f5f5f5;
+	text-align:center;
+}
+.top strong{
+	display:block;
+	line-height:19px;
+	margin-top:8px;
+}
+em{
+	display:inline-block;
+	font-style:normal;
+	color:#9c9c9c;
+	line-height:18px;
+	margin-bottom: 5px;
+}
+.xia_body li{
+	display:inline-block;
+}
+li strong{
+	display:block;
+	font-weight:normal;
+	line-height:23px;
+	text-align:center ;
+	margin-top:5px;
+}
+.content .di{
+	line-height:14px;
+	height:14px;
+	margin-top:5px;
+}
+.di a{
+	color:#3c3c3c;
+}
+.di span{
+	color:#e1e1e1;
+	font-size:14px;
+	margin:0px -3px 0px -4px;
+}
+.dibu{
+	line-height:40px;
+}
+.dibu a{
+	color:red;
+}
+.dibu .dibu_text{
+	color:#3c3c3c;
+}
+.dibu span{
+	color:#e4e4e4;
+	margin:0px -2px 0px -1px;
+}

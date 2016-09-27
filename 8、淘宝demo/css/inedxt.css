@@ -1,0 +1,134 @@
+/*rest*/
+body,h3,dl,dd{
+	margin:0px;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+	vertical-align:top;
+}
+ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}	
+.box{
+	width:891px;
+	height:260px;
+	font-size:0px;
+	margin:50px auto;
+}
+.kuai{
+	width:444px;
+	height:258px;
+	border:1px solid #e8e8e8;
+	display:inline-block;
+	margin-left:-1px;
+	vertical-align:top;
+	}
+.head{
+	/*margin-top:15px;
+	margin-left:-1px;*/
+}
+.head h3{
+	display:inline-block;
+	font:bold 14px/20px "微软雅黑";
+	border-left:2px solid red;
+	margin-left:-1px;
+	margin-top:15px;
+	padding-left:12px;
+	padding-top:2px;
+	height:20px;	
+}
+.head a{
+	display:inline-block;
+	font-size:12px;
+	width:104px;
+	height:18px;
+	background:url(../img/tu.jpg) no-repeat;
+	color:#c65c22;
+	line-height:18px;
+	padding-top:2px;
+	padding-left:11px;
+	margin-left:3px;
+}
+.content{
+	width:422px;
+	height:205px;
+	padding:16px 0px 0px 15px;
+}
+.content .one{
+	padding-bottom: 16px;
+	border-bottom: 1px solid #999;
+}
+.one .one_li{
+	margin-right:35px;
+}
+.content .one li{
+	width:190px;
+	height:80px;
+	display:inline-block;
+	vertical-align:top;	
+}
+.one a{
+	display:inline-block;
+	font:12px "宋体";
+	vertical-align:top;
+}
+.one .one_list{
+	width:100px;
+	height:80px;
+	background:olive;
+}
+.one .one_name{
+	width:83px;
+	height:76px;
+	color:#6c6c6c;
+	line-height:24px;
+	padding-top:4px;
+	padding-left:7px;
+}
+.one .one_name span{
+	font-weight: bold;
+	color: #3c3c3c;
+}
+.content .two a{
+	font-size:12px;
+	color:#3c3c3c;
+}
+.two dl{
+	display:inline-block;
+	width:190px;
+	height:30px;
+	vertical-align:top;
+	line-height:30px;
+}
+.two dt{
+	display: inline-block;
+}
+.two dd{
+	display:inline-block;
+}
+.content .two{
+	padding-top: 7px;
+}
+.two dt{
+	margin-right: 12px;
+}
+.two dt a{
+	font-weight: bold;
+}
+.two a{
+	color: #3c3c3c;
+}
+.two dd{
+	word-spacing: 9px;
+}
+.two_text{
+	margin-right: 34px;
+}
+.two dd .color{
+	color: #ff4400;
+}
