@@ -1,0 +1,178 @@
+/*------------------------------------------------------------搜索区域  css1*/
+.content-title{
+	width:954px;
+	padding-left:36px;
+	background:#e4f4ff;
+}
+.content-title li{
+	float:left;
+	line-height:32px;
+	padding:0 20px;
+}
+.content-title li a{
+	color:#23516e;
+	font:12px "微软雅黑";
+}
+.content-title .teshu{
+	padding:5px 5px 4px;
+	background:#446681;
+	color:#fff;
+	border-radius: 3px;
+}
+
+.content-title .shu{
+	float:left;
+	color:#88afc8;
+	width:1px;
+	height:14px;
+	background:#88afc8;
+	margin-top:9px;
+	padding: 0 0;
+}
+
+
+
+/*搜索区域-------------------------------------------------------------------------------*/
+.content .seek{
+	margin-top:8px;
+}
+/*左边*/
+.seek-left{
+	width:388px;
+	height:293px;
+	border:1px solid #e3e6ea;
+	background:#fff;
+}
+/*右边*/
+.seek-right{
+	width:590px;
+	height:293px;
+	background:pink;
+}
+.sr-img{
+	width:100%;
+}
+.sr-img .tudian{
+	width: 156px;
+    height: 16px;
+    right: 4px;
+    bottom: 6px;
+}
+.tudian a {
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 12px;
+    background-color: #8b8b8b;
+    border-radius: 16px;
+}
+.tudian .noborder{
+	margin-right:0;
+}
+.tudian .color {
+    background: #ff8800;
+}
+/*搜索区域*/
+.seek .sl-title {
+    height: 42px;
+    width: 100%;
+}
+.sl-title .sl-nav {
+    padding-left: 18px;
+    border-bottom: 1px solid #e3e6ea;
+    _zoom: 1;
+}
+.sl-nav span {
+    float: left;
+    color: rgb(220, 221, 224);
+    font: 14px/16px 微软雅黑;
+    padding: 13px 11px 12px;
+}
+.sl-nav span a {
+    color: rgb(95, 114, 127);
+    float: left;
+    font: 12px/16px 微软雅黑;
+}
+.sl-nav .border {
+    border-bottom: 2px solid #5eb5f1;
+    margin-bottom: -1px;
+}
+.sl-nav .shu {
+    padding: 13px 0 12px;
+    float: left;
+}
+
+.sl-content {
+    width:100%;
+    /* height: 166px; */
+}
+.sc-box {
+    padding: 11px 0 0 20px;
+}
+.box-title {
+    font: 12px/29px 微软雅黑;
+    color:#8a9ca8;
+    height:29px;
+}
+.box-title span {
+    padding-right: 18px;
+}
+.box-title input {
+    color: #1980c4;
+    margin: 2px 5px 0 0;
+}
+
+
+.box-input .site {
+    width: 160px;
+    height: 50px;
+    float: left;
+    margin-bottom: 8px;
+}
+.siteborder {
+    margin-right: 28px;
+}
+.box-input label {
+    color:#8a9ca8;
+    font: 12px/20px 微软雅黑;
+}
+.box-input {
+    width: 368px;
+    height: 120px;
+}
+.box-input input {
+    width: 158px;
+    height: 28px;
+    border: 1px solid #c7d1e4;
+    color: #8a9ca8;
+}
+.box-input .input1 input {
+    color: #4e5662;
+}
+
+.box-input .ico {
+    width: 25px;
+    height: 65px;
+    background: url(../img/bg_title.png) no-repeat 0 -30px;
+    left: 160px;
+    top: 35px;
+    overflow: hidden;
+}
+
+.sl-bottom{
+	width:388px;
+	height:90px;
+	background:url(../img3/seek1.png) no-repeat;
+}
+
+.sl-bottom .sosuo {
+    width: 160px;
+    height: 36px;
+    background: #63b8f0;
+    color: #fff;
+    font: bold 16px/40px "微软雅黑";
+    top: 3px;
+    right: 28px;
+    text-align: center;
+    border-radius:4px;
+}
