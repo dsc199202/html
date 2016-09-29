@@ -1,0 +1,40 @@
+body{
+	background:#ededed;
+}
+
+/*头部*/
+.head-title .title-top{
+	background-color:#f2f2f2;
+	border-bottom:1px solid #e5e5e5;
+}
+.head-title .top-text{
+	width:990px;
+	height:15px;
+	margin:0 auto;
+	font:12px/14px "微软雅黑";
+	padding:7px 0 4px;
+}
+/*头部第三行左边内容*/
+.title-bottom{
+	background:#fff;
+	margin-top:4px;
+}
+.title-bottom .content-left{
+	width:100%;
+	float:left;
+}
+.content-left .left-title{
+	width:100%;
+	height:27px;
+	padding:27px 0 16px 0;
+}
+
+.left-title .dianhua{
+	width:210px;
+	height:31px;
+	border:1px solid #dce0e5;
+	top:14px;
+	right:0px;
+	color:#333333;
+	font-size:12px;
+}
